@@ -1,14 +1,11 @@
 #!/bin/bash
-# Variables
-# USERS=$1
-# PASS=$2
-# DOMAIN=$3
-# IP=$4
-# THREADS=$5
+
+# Variables for the parameters
 OUTPUT_FILE="results_passwordspray_${DOMAIN}_$(date +%Y%m%d_%H%M%S).txt"
 COUNTER=1
 
 source ./helpMenu.sh
+
 
 while IFS= read -r LINE
 do
