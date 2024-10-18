@@ -1,7 +1,7 @@
 #!/bin/bash
 # Function to display help message
 show_help() {
-  echo "Usage: $0 -uL <userlist file> -pL <PASSWORDLIST file> -d <domain> -dc <IP> -t <threads>"
+  echo "Usage: $0 -uL <userlist file> -pL <passwordlist file> -d <domain> -dc <IP> -t <threads>"
   echo
   echo "Parameters:"
   echo "  -uL <userlist file>      - Path to the userlist file."

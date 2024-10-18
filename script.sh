@@ -1,8 +1,10 @@
 #!/bin/bash
 
-# Variables for the parameters
+# Variables for the output name.
 OUTPUT_FILE="results_passwordspray_${DOMAIN}_$(date +%Y%m%d_%H%M%S).txt"
+
 COUNTER=1
+DELAY=""
 
 source ./helpMenu.sh
 
@@ -14,4 +16,5 @@ do
         COUNTER=$((COUNTER+1))
         echo ""
         echo ""
+        
 done < "${PASSWORDLIST}"
