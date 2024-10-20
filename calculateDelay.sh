@@ -4,6 +4,7 @@
 # TODO
 # Ask for the parameter LOCKOUT_THRESHOLD to user
 LOCKOUT_THRESHOLD=$3
+
 # Setting the lockout threshold to 3 if it is less than 3.
 if [ "${LOCKOUT_THRESHOLD}" -le 2 ]; then
   LOCKOUT_THRESHOLD=3
