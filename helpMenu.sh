@@ -55,10 +55,11 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
+
 # Check if the userlist files is valid
-  if [ ! -f "$USERLIST" ]; then
-    errors+="Error: The file 'userlist' does not exist or is not a valid file.\n"
-  fi
+if [ ! -f "$USERLIST" ]; then
+  errors+="Error: The file 'userlist' does not exist or is not a valid file.\n"
+fi
 
 # Check if the passwordlist files is valid
 if [ ! -f "${PASSWORDLIST}" ]; then
