@@ -6,6 +6,7 @@ OUTPUT_FILE="results_passwordspray_${DOMAIN}_$(date +%Y%m%d_%H%M%S).txt"
 COUNTER=1
 DELAY=""
 
+
 source ./helpMenu.sh
 
 
